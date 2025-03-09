@@ -45,7 +45,9 @@ const ProjectCard = ({data}:IProps  ) => {
                                         transform: `translateX(-${8 * index + 2}px)`,
                                       }}
                                 >
-                                    <img
+                                    <Image
+                                    width={200}
+                                    height={200}
                                         src={icon}
                                         alt={icon}
                                     />

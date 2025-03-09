@@ -14,9 +14,12 @@ const Grid = ( ) => {
             {/* the large div in the first row*/}
             <div className="col-span-12 row-span-1 h-44 md:h-full md:col-span-7  md:row-span-2 rounded-3xl bg-blue-900/10 group hover:shadow-xl transition duration-200 ">
                 <div className="w-full h-full relative ">
-                    <img
+                    <Image
+                        alt="Picture of the author"
                         src="b1.svg"
                         className=" object-cover object-center  rounded-3xl h-full w-full overflow-hidden"
+                        width={200}
+                        height={200}
                         />
                     <div className="absolute bottom-5 left-0  max-w-xs md:max-w-lg justify-end text-white  px-5 transition duration-200 transform group-hover:translate-x-2">
                          <div className="text-xl md:text-2xl lg:text-3xl font-bold">I prioritize client collaboration, fostering open communication</div>              
