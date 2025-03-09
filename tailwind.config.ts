@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import svgToDataUri from "mini-svg-data-uri";
-import colors from "tailwindcss/colors";
-import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
+// import colors from "tailwindcss/colors";
+// import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 import { PluginAPI } from "tailwindcss/types/config";
 
 module.exports = {
@@ -134,7 +134,7 @@ module.exports = {
   	}
   },
   plugins: [
-    function ({ matchUtilities, theme }: PluginAPI) {
+    function ({ matchUtilities }: PluginAPI) {
       matchUtilities(
         {
           "bg-grid": (value: string) => ({
@@ -153,9 +153,9 @@ module.exports = {
             )}")`,
           }),
         },
-        { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
+        // { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
       );
     },
-      require("tailwindcss-animate")
+    //   require("tailwindcss-animate")
 ],
 };
