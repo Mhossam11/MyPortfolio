@@ -23,12 +23,12 @@ const Hero = () => {
         {/* content on the background */}
         <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                <h1 className="uppercase tracking-widest text-2xl  text-center text-purple-200 max-w-3xl">Welcome to my portfolio</h1>
+                <h1 className="uppercase tracking-widest text-2xl  text-center dark:text-purple-200 text-purple-500  max-w-3xl">Welcome to my portfolio</h1>
                 <TextGenerateEffect 
                     className="text-purple-100 text-center text-2xl md:text-5xl lg:text-6xl " 
                     words="Transforming concepts into seamless User Experiences"
                 />
-                <p className="text-center text-purple-200 md:my-4 md:tracking-wider text-sm md:text-lg lg-text-2xl">
+                <p className="text-center dark:text-purple-200 text-purple-500 md:my-4 md:tracking-wider text-sm md:text-lg lg-text-2xl">
                     Hello, I&apos;m Mohamed Hossam , a frontend developer with a passion for crafting exceptional digital experiences.
                 </p>
                 <a href="#about" className="mt-5 md:m-0">
@@ -36,6 +36,7 @@ const Hero = () => {
                         title="show my work"
                         icon={<FaLocationArrow/>}
                         position="right"
+                        
                     />
                 </a>
             </div>

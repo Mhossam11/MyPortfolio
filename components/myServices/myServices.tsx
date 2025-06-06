@@ -21,9 +21,9 @@ export function MyServices() {
 
   return(
     <>
-            <h1 className="my-24 text-white text-xl md:text-4xl   font-bold tracking-wide text-center  uppercase">
+            <h1 className="my-12 md:my-24 text-white text-xl md:text-4xl   font-bold tracking-wide text-center  uppercase">
                 My
-                <span className="text-purple-400"> Approach</span>
+                <span className="text-purple-900/60 dark:text-purple-400"> Approach</span>
             </h1>
             <FocusCards cards={cards} />
     </>

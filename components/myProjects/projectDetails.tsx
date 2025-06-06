@@ -24,7 +24,7 @@ export function ProjectDetails({description,title}:IProps) {
   return (
     <Drawer>
       <DrawerTrigger asChild>
-        <Button variant="link" className="text-purple-400/50 hover:text-purple-300 font-bold tracking-wider underline">Project Details</Button>
+        <Button variant="link" className="text-purple-900 dark:text-purple-400/50 hover:text-purple-300 font-bold tracking-wider underline">Project Details</Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm ">
